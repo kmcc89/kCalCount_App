@@ -27,7 +27,7 @@
         android:layout_below="@+id/appBarLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="191dp"
-        android:text="Functionality for my food page " />
+        android:text="Functionality for my food page git hub commit " />
 
     <Button
         android:id="@+id/savedFoodBtn"
