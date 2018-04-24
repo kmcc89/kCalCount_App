@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kevmc.kcalcount">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalorieCounter"
+            android:label="@string/title_activity_calorie_counter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodMain"
+            android:label="@string/title_activity_food_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitiesMain"
+            android:label="@string/title_activity_activities_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResourcesMain"
+            android:label="@string/title_activity_resources_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MyFood"
+            android:label="@string/title_activity_my_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeneralFood"
+            android:label="@string/title_activity_general_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeneralActivities"
+            android:label="@string/title_activity_general_activities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyActivities"
+            android:label="@string/title_activity_my_activities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SavedFoods"
+            android:label="@string/title_activity_saved_foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFood"
+            android:label="@string/title_activity_add_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditSavedFood"
+            android:label="@string/title_activity_edit_saved_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SavedActivities"
+            android:label="@string/title_activity_saved_activities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddNewAct"
+            android:label="@string/title_activity_add_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditSavedAct"
+            android:label="@string/title_activity_edit_saved"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConsumedFood"
+            android:label="@string/title_activity_consumed_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UndertakenActivity"
+            android:label="@string/title_activity_undertaken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DayBreakdown"
+            android:label="@string/title_activity_day_breakdown"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

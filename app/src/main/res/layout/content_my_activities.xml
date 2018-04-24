@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kevmc.kcalcount.MyActivities"
+    tools:showIn="@layout/activity_my_activities">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="My Activities Page" />
+
+    <Button
+        android:id="@+id/savedActivitiesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:text="Saved Activities" />
+
+    <Button
+        android:id="@+id/addNewActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/savedActivitiesBtn"
+        android:layout_alignStart="@+id/savedActivitiesBtn"
+        android:layout_below="@+id/savedActivitiesBtn"
+        android:layout_marginTop="83dp"
+        android:text="Add New Activity" />
+</RelativeLayout>
