@@ -27,7 +27,7 @@
         android:layout_height="30dp"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp" />
+        android:layout_marginTop="43dp" />
 
     <Button
         android:id="@+id/foodConsumedBtn"
@@ -55,4 +55,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
         android:text="Today's Breakdown" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Welcome to the Calorie Counter Page" />
 </RelativeLayout>
