@@ -10,10 +10,17 @@ import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
+    static boolean skipLogin = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+
+        if(skipLogin == false){
+            userLogin();
+        }
+
 
         Button counterBtn = (Button) findViewById(R.id.calorie_couter_button);
         Button foodBtn = (Button) findViewById(R.id.food_button);
@@ -63,7 +70,7 @@ public class HomePage extends AppCompatActivity {
            @Override
            public void onClick(View view) {
 
-               Intent login_page = new Intent(HomePage.this, LoginActivity.class);
+               Intent login_page = new Intent(HomePage.this, UserLogin.class);
                startActivity(login_page);
            }
        });
@@ -79,6 +86,11 @@ public class HomePage extends AppCompatActivity {
 
 
     }//ON CREATE METHOD
+
+    public void userLogin(){
+        Intent login_page = new Intent(HomePage.this, UserLogin.class);
+        startActivity(login_page);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
