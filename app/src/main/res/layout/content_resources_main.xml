@@ -8,15 +8,6 @@
     tools:context="com.kevmc.kcalcount.ResourcesMain"
     tools:showIn="@layout/activity_resources_main">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Resources Page Main"
-        android:textSize="24dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="158dp" />
+
 
 </RelativeLayout>

@@ -42,9 +42,6 @@
             android:label="@string/title_activity_resources_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
             android:name=".MyFood"
             android:label="@string/title_activity_my_food"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -95,7 +92,9 @@
         <activity
             android:name=".DayBreakdown"
             android:label="@string/title_activity_day_breakdown"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DisplayFood" />
+        <activity android:name=".UserLogin"></activity>
     </application>
 
 </manifest>

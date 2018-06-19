@@ -20,15 +20,28 @@
         tools:layout_editor_absoluteX="133dp"
         tools:layout_editor_absoluteY="158dp" />
 
-    <EditText
-        android:id="@+id/editText"
+    <Button
+        android:id="@+id/btn_find_food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/et_food_to_search"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="41dp"
+        android:onClick="findFood"
+        android:text="Find Food" />
+
+    <EditText
+        android:id="@+id/et_food_to_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="92dp"
         android:ems="10"
-        android:inputType="textMultiLine"
-        android:text="WILL HAVE LINK TO FURTHER PAGE ASDASD" />
+        android:hint="Enter food name..."
+        android:inputType="textPersonName" />
+
+
 
 </RelativeLayout>
