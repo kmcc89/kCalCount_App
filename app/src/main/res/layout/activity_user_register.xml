@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kevmc.kcalcount.UserRegister">
+
+    <TextView
+        android:id="@+id/registerWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Register Your Persoanl Details" />
+
+    <TextView
+        android:id="@+id/userRegisterName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/registerWelcomeText"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="24dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/userRegisterName_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegisterName_tv"
+        android:layout_alignTop="@+id/userRegisterName_tv"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/userRegisterName_tv"
+        android:layout_toRightOf="@+id/userRegisterName_tv"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/userRegisterAge_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userRegisterName_tv"
+        android:layout_alignStart="@+id/userRegisterName_tv"
+        android:layout_below="@+id/userRegisterName_tv"
+        android:layout_marginTop="22dp"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/userRegisterAge_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegisterAge_tv"
+        android:layout_alignEnd="@+id/userRegisterName_et"
+        android:layout_alignRight="@+id/userRegisterName_et"
+        android:layout_alignTop="@+id/userRegisterAge_tv"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/userRegisterHeight_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userRegisterAge_tv"
+        android:layout_alignStart="@+id/userRegisterAge_tv"
+        android:layout_below="@+id/userRegisterAge_tv"
+        android:layout_marginTop="19dp"
+        android:text="Height" />
+
+    <EditText
+        android:id="@+id/userRegisterHeight_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegisterHeight_tv"
+        android:layout_alignLeft="@+id/userRegisterAge_et"
+        android:layout_alignStart="@+id/userRegisterAge_et"
+        android:layout_alignTop="@+id/userRegisterHeight_tv"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/userRegisterWeight_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userRegisterHeight_tv"
+        android:layout_alignStart="@+id/userRegisterHeight_tv"
+        android:layout_below="@+id/userRegisterHeight_tv"
+        android:layout_marginTop="16dp"
+        android:text="Weight" />
+
+    <EditText
+        android:id="@+id/userRegisterWeight_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegisterWeight_tv"
+        android:layout_alignLeft="@+id/userRegisterHeight_et"
+        android:layout_alignStart="@+id/userRegisterHeight_et"
+        android:layout_alignTop="@+id/userRegisterWeight_tv"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/userRegisterAvtivityLevel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userRegisterWeight_tv"
+        android:layout_alignStart="@+id/userRegisterWeight_tv"
+        android:layout_below="@+id/userRegisterWeight_tv"
+        android:layout_marginTop="18dp"
+        android:text="Activity Level" />
+
+    <EditText
+        android:id="@+id/userRegisterAvtivityLevel_et"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegisterAvtivityLevel_tv"
+        android:layout_alignTop="@+id/userRegisterAvtivityLevel_tv"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/registerWelcomeText"
+        android:layout_alignRight="@+id/registerWelcomeText"
+        android:layout_below="@+id/userRegisterAvtivityLevel_tv"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="time" />
+
+</RelativeLayout>

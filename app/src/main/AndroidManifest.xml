@@ -94,7 +94,8 @@
             android:label="@string/title_activity_day_breakdown"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".DisplayFood" />
-        <activity android:name=".UserLogin"></activity>
+        <activity android:name=".UserLogin" />
+        <activity android:name=".UserRegister"></activity>
     </application>
 
 </manifest>
